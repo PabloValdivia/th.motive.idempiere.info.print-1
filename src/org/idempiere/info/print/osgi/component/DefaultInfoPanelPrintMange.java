@@ -208,7 +208,7 @@ public class DefaultInfoPanelPrintMange implements IInfoPrintHandle, IInfoButton
 			}
 		}
 		
-		Collection<KeyNamePair> selectedKeypairs = infoPanel.getSelectedKeyForPrint (isPrintAll);
+		Collection<KeyNamePair> selectedKeypairs = infoPanel.getSelectedKeyForPrint (isPrintAll); //LEGGERE README.MD, data 21/06/2019
 		
 		Collection<Integer> selectedKeys = new ArrayList<>();
 		if (selectedKeypairs != null) {
